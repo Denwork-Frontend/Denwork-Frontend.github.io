@@ -1,0 +1,9 @@
+@mixin color_textsize($c, $s) {
+  color: $c;
+  font-size: $s;
+}
+
+@mixin bg_textsize($b, $s) {
+  background-color: $b;
+  font-size: $s;
+}
